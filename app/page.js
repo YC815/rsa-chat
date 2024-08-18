@@ -249,6 +249,10 @@ export default function Home() {
             GitHub
           </a>
         </p>
+        <p className="mt-2">
+          使用方法:
+          雙方生成公私鑰後互相分享公鑰，互相填入公鑰後加密明文再寄出，收到密文後再用本系統解密。
+        </p>
       </footer>
     </div>
   );
