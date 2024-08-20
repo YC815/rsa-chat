@@ -60,14 +60,9 @@ export default function Home() {
   };
 
   const copyToClipboard = (text) => {
-    navigator.clipboard
-      .writeText(text)
-      .then(() => {
-        alert("複製成功！");
-      })
-      .catch((error) => {
-        console.error("複製失敗", error);
-      });
+    navigator.clipboard.writeText(text).catch((error) => {
+      console.error("複製失敗", error);
+    });
   };
 
   const pasteToTextarea = (textareaRef, setValue) => {
