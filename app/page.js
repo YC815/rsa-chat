@@ -208,7 +208,6 @@ export default function Home() {
             <textarea
               ref={cipherTextRef}
               className="resize-none border p-2 flex-1"
-              value={cipherText}
               onChange={(e) => setCipherText(e.target.value)}
             />
             <button
@@ -224,7 +223,7 @@ export default function Home() {
             className="bg-blue-500 text-white py-2 px-4 rounded"
             onClick={decryptText}
           >
-            ←解密
+            解密→
           </button>
         </div>
         <div className="flex flex-col">
