@@ -75,7 +75,7 @@ export default function Home() {
         }
       })
       .catch((error) => {
-        console.error("粘貼失敗", error);
+        console.error("貼上失敗", error);
       });
   };
 

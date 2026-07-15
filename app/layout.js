@@ -12,7 +12,7 @@ const fontSans = FontSans({
 
 export const metadata = {
   title: "RSA Chat",
-  description: "使用Rsa加密聊天",
+  description: "使用RSA加密聊天",
 };
 
 export default function RootLayout({ children }) {
